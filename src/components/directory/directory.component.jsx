@@ -46,7 +46,7 @@ class Directory extends Component {
     return (
       <div className="directory-menu">
         {this.state.sections.map(({ id, ...AllOthers }) => (
-          <MenuItem key={id} {...AllOthers} />
+          <MenuItem key={id} {...AllOthers} /> //It's an ES6 code. READ- SPREAD OPERATORS in JS
         ))}
       </div>
     );
